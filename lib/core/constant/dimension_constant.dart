@@ -8,4 +8,3 @@ const double kMinPadding = 5;
 const double kTopPadding = 8;
 const double kDefaultIconSize = 18;
 const BorderRadius kDefaultBorderRadius = BorderRadius.all(Radius.circular(8));
-

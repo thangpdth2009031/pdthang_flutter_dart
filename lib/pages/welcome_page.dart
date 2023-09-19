@@ -30,8 +30,7 @@ class _WelcomePageState extends State<WelcomePage> {
                     fit: BoxFit.cover)),
             child: Container(
               margin: const EdgeInsets.only(
-                top: 100,
-                  left: kDefaultPadding, right: kDefaultPadding),
+                  top: 100, left: kDefaultPadding, right: kDefaultPadding),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -83,8 +82,9 @@ class _WelcomePageState extends State<WelcomePage> {
                         height: index == indexDots ? 25 : 12,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(8),
-                            color: index == indexDots ? ColorPalette.primaryColor : ColorPalette.primaryColor.withOpacity(0.5)
-                        ),
+                            color: index == indexDots
+                                ? ColorPalette.primaryColor
+                                : ColorPalette.primaryColor.withOpacity(0.5)),
                       );
                     }),
                   )
